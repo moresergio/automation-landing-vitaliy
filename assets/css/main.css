@@ -3617,3 +3617,20 @@ input, select, textarea {
 		.post {
 		scroll-margin-top: 80px;
 		}
+		
+		.whatsapp-link {
+		color: #25D366; /* фирменный зелёный WhatsApp */
+		text-decoration: none;
+		font-weight: 500;
+		display: inline-flex;
+		align-items: center;
+		}
+		
+		.whatsapp-link i {
+		margin-right: 0.5em; /* небольшой отступ между иконкой и текстом */
+		font-size: 1.2em;
+		}
+		
+		.whatsapp-link:hover {
+		text-decoration: underline;
+		}
