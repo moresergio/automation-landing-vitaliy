@@ -1,3 +1,3 @@
 git add .
-git commit -m "обновил текст/картинку"
+git commit -m "updated text/image"
 git push
