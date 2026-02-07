@@ -3634,3 +3634,37 @@ input, select, textarea {
 		.whatsapp-link:hover {
 		text-decoration: underline;
 		}
+		
+		/* Базовый стиль футера */
+		#footer .icons {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		gap: 15px; /* расстояние между иконками */
+		}
+		
+		#footer .icons li a {
+		font-size: 1.6em;
+		display: inline-flex;
+		align-items: center;
+		text-decoration: none;
+		transition: transform 0.2s, filter 0.2s;
+		}
+		
+		/* Фирменные цвета */
+		#footer .icons .fa-telegram { color: #0088cc; }
+		#footer .icons .fa-whatsapp { color: #25D366; }
+		#footer .icons .fa-instagram { color: #E4405F; }
+		#footer .icons .fa-facebook-f { color: #1877F2; }
+		#footer .icons .fa-envelope { color: #b8860b; }
+		
+		/* Hover эффект */
+		#footer .icons li a:hover {
+		transform: scale(1.2); /* немного увеличиваем */
+		filter: brightness(1.2); /* светлее при наведении */
+		}
+		
+		/* Скрываем текст для чистых иконок (по желанию) */
+		#footer .icons .label {
+		display: none;
+		}
