@@ -3609,3 +3609,11 @@ input, select, textarea {
 			}
 
 		}
+		
+		html {
+		scroll-behavior: smooth;
+		}
+		
+		.post {
+		scroll-margin-top: 80px;
+		}
